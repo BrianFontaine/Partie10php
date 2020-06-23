@@ -87,6 +87,7 @@ include 'header.php';
 <div class="row justify-content-center mt-3">
     <div class="col-md-6">
         <div class="jumbotron">
+            <img src="asset/img/<?= $picture;?>" alt="">
             <p>Civilité : <?=$civility == 1 ? 'Monsieur' : 'Madame'?></p>
             <p>Nom : <?=$lastname?></p>
             <p>Prenom : <?=$firstname?></p>
